@@ -1,0 +1,17 @@
+.button{
+    background-color: var(--button);
+    width: 96%;
+    height:3rem;
+    color: var(--background);
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+

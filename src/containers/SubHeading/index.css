@@ -1,0 +1,11 @@
+.sub-heading h4{
+    font-weight: 400;
+    color: var(--light-dark-gray);
+}
+
+.sub-heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

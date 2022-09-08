@@ -1,0 +1,26 @@
+.progress-line{
+    width: 100%;
+    height: 0.5rem;
+    position: absolute;
+}
+
+.progress-line .background-line{
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top:50%;
+    left:0;
+    background-color: var(--light-gray);
+    z-index: -2;
+    transform: translateY(-50%);
+}
+
+.progress-line__progress{
+    position: absolute;
+    height: 1px;
+    top:50%;
+    left:0;
+    background-color: var(--progress-bar);
+    z-index: -2;
+    transform: translateY(-50%);
+}

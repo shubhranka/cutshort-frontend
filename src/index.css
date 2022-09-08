@@ -1,8 +1,31 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Jura:wght@300;400;500;600;700&display=swap');
+:root{
+  /* --background:#F4F6F9; */
+  --background:#fff;
+  --light-gray:#bdc5c690;
+  --dark-blue:#2415C9;
+  --black:#40434A;
+  --light-dark-gray:#9ba0ab;
+  --lightest-blue:#B3AEE3;
+  --button:#5A4AD1;
+  --progress-bar:#847CC6;
+
+  --width:40%;
+}
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  /* color: var(--black); */
+}
+
+body {
+  background-color: var(--background);
+  margin: 0;
+  /* font-family: 'Abril Fatface', cursive; */
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +33,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
 }
